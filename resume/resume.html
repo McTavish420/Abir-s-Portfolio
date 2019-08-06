@@ -1,0 +1,661 @@
+<!DOCTYPE html>
+
+<html class="no-js gr__sonjastrieder_com" lang="en"><head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Resume</title>
+
+    <style>
+        @import url(https://fonts.googleapis.com/css?family=Lato:400,700,900);
+
+        .Navbar ul {
+            list-style: none;
+            padding-left: 0;
+            margin: 0
+        }
+
+        html {
+            font-size: 62.5%;
+            box-sizing: border-box
+        }
+
+        *,
+        *:before,
+        *:after {
+            box-sizing: inherit
+        }
+
+        body {
+            margin: 0;
+            background-color: #fff
+        }
+
+        img {
+            max-width: 100%;
+            height: auto
+        }
+
+        .u-cf:before,
+        .u-cf:after {
+            content: " ";
+            display: table
+        }
+
+        .u-cf:after {
+            clear: both
+        }
+
+        .u-hug {
+            margin-top: 0 !important
+        }
+
+        .u-pullRight {
+            float: right
+        }
+
+        .u-keyline {
+            position: relative
+        }
+
+        .u-keyline:before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            border-top: 1px solid #ddd
+        }
+
+        .u-link {
+            text-decoration: none;
+            position: relative;
+            display: inline-block
+        }
+
+        .u-link:before {
+            content: "";
+            position: absolute;
+            z-index: -1;
+            bottom: .2em;
+            width: 100%;
+            height: 2px;
+        }
+
+        .u-link:visited:before {
+            background-color: #ddd
+        }
+
+        .u-link:hover:before {
+            background-color: #fa8072
+        }
+
+        .u-shadow {
+            text-shadow: 4px 4px 0 #6fd1bd;
+            transition: text-shadow .2s ease-in-out
+        }
+
+        a:hover .u-shadow {
+            text-shadow: -4px -4px 0 salmon
+        }
+
+        @media (max-width:767px) {
+            .u-hidden\@sm-down {
+                display: none !important
+            }
+        }
+
+        @media (max-width:543px) {
+            .u-hidden\@xs-down {
+                display: none !important
+            }
+        }
+
+        body {
+            color: #333;
+            font-size: 1.6rem;
+            font-family: Lato, Helvetica, Arial, sans-serif;
+            font-weight: normal;
+            line-height: 1.5;
+            letter-spacing: .008em;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale
+        }
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            color: #111;
+            line-height: 1.2;
+            font-weight: 900
+        }
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6,
+        ul,
+        p {
+            margin-top: 1.6rem;
+            margin-bottom: 0
+        }
+
+        h3,
+        .h3 {
+            font-size: 2rem;
+            margin-top: 3.2rem
+        }
+
+        a {
+            color: #333
+        }
+
+        ul {
+            padding-left: 1.8rem
+        }
+
+        .Title {
+            font-size: 50px;
+            font-size: 8vw;
+            font-family: Lato, 'Open Sans', Helvetica, Arial;
+            font-weight: 900;
+            line-height: 1.1;
+            margin-top: 0;
+            margin-bottom: 0;
+            text-transform: uppercase;
+            display: inline-block
+        }
+
+        @media (max-width:525px) {
+            .Title {
+                font-size: 42px
+            }
+        }
+
+        @media (min-width:937.5px) {
+            .Title {
+                font-size: 75px
+            }
+        }
+
+        .Title-sub {
+            font-size: .34em;
+            letter-spacing: .16em;
+            font-weight: 400;
+            text-transform: none;
+            display: block;
+            margin-top: 1.2rem;
+            padding-top: 1.6rem;
+            border-top: .45em solid
+        }
+
+        .l-Wrapper {
+            width: 80%;
+            max-width: 90rem;
+            margin-left: auto;
+            margin-right: auto
+        }
+
+        @media (max-width:767px) {
+            .l-Wrapper--reset\@sm-down {
+                width: 100%
+            }
+        }
+
+        .l-Header {
+            margin-top: 6.4rem;
+            margin-bottom: 3.2rem
+        }
+
+        .l-Header-col {
+            margin-top: 3.2rem;
+            margin-bottom: 3.2rem
+        }
+
+        @media (min-width:544px) {
+            .l-Header {
+                display: flex;
+                justify-content: space-between;
+                align-items: flex-end
+            }
+
+            .l-Header-col:last-child:not(:first-child) {
+                text-align: right
+            }
+        }
+
+        .l-Section {
+            margin-top: 6.4rem
+        }
+
+        .l-Section+.l-Section {
+            position: relative;
+            border-top: 1px solid #ddd
+        }
+
+        .l-Section+.l-Section:before {
+            content: "";
+            font-size: 50px;
+            font-size: 8vw;
+            position: absolute;
+            top: -.1rem;
+            border-top: .153em solid;
+            width: 4rem
+        }
+
+        @media (max-width:525px) {
+            .l-Section+.l-Section:before {
+                font-size: 42px
+            }
+        }
+
+        @media (min-width:937.5px) {
+            .l-Section+.l-Section:before {
+                font-size: 75px
+            }
+        }
+
+        .l-Section-title,
+        .l-Section-content {
+            margin-top: 3.2rem
+        }
+
+        .l-Section-content>:first-child,
+        .l-Section-content>:first-child>h3 {
+            margin-top: 0
+        }
+
+        .l-Section-content>p:first-child,
+        .l-Section-content>ul:first-child {
+            margin-top: .3rem
+        }
+
+        .l-Section-group {
+            display: inline
+        }
+
+        @media (min-width:768px) {
+            .l-Section {
+                display: flex
+            }
+
+            .l-Section:before {
+                display: none
+            }
+
+            .l-Section-title {
+                flex: 0 0 24%
+            }
+        }
+
+        .l-Footer {
+            font-size: 1.4rem;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin: 12.8rem -.8rem 3.2rem;
+            padding-top: 3.2rem
+        }
+
+        .l-Footer a {
+            text-decoration: none;
+            display: inline-block
+        }
+
+        .l-Footer a:not(:last-child) {
+            margin-right: 1.6rem
+        }
+
+        .l-Footer a:hover {
+            color: #111
+        }
+
+        .l-Footer-col {
+            padding-left: .8rem;
+            padding-right: .8rem
+        }
+
+        .Navbar {
+            color: #fff;
+            font-size: 1rem;
+            font-weight: bold;
+            line-height: 4rem;
+            letter-spacing: .28rem;
+            text-transform: uppercase;
+            width: 100%;
+            background-color: #111
+        }
+
+        .Navbar a:not(.Navbar-toggle) {
+            color: inherit;
+            text-decoration: none
+        }
+
+        .Navbar li {
+            display: inline-block
+        }
+
+        .Navbar a {
+            display: block;
+            padding: 0 .8rem
+        }
+
+        a.Navbar-btn {
+            padding-left: 2rem;
+            padding-right: 2rem;
+            background: #6fd1bd
+        }
+
+        a.Navbar-btn:hover {
+            background: #fa8072
+        }
+
+        @media (max-width:767px) {
+            .Navbar {
+                text-align: right
+            }
+
+            .Navbar ul:not(:first-child) {
+                display: inline-block;
+                padding-right: 1.6rem !important
+            }
+        }
+
+        .Tag {
+            color: #111;
+            text-shadow: 1px 1px 0 rgba(255, 255, 255, .4);
+            font-weight: 700;
+            line-height: 1;
+            position: relative;
+            display: inline-block;
+            padding-left: .8rem;
+            padding-right: .8rem
+        }
+
+        .Tag:before {
+            content: "";
+            position: absolute;
+            z-index: -1;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 1em;
+            bottom: 0;
+            margin: auto;
+            border-radius: .2rem;
+            background-color: rgba(111, 209, 189, .5);
+            transition: all .8s .4s ease-in-out
+        }
+
+        .Tag:hover:before {
+            transform: scale(1.05, 2.4);
+            background-color: #6fd1bd;
+            transition-delay: 0s;
+            transition-duration: .2s
+        }
+
+        @media print {
+            html {
+                font-size: 50%
+            }
+
+            .l-Wrapper {
+                width: 100%;
+                max-width: none
+            }
+
+            .Navbar,
+            .u-hidden\@print {
+                display: none
+            }
+
+            .l-Header,
+            .l-Header-col {
+                margin-top: 0
+            }
+
+            .l-Footer,
+            .l-Section {
+                margin-top: 3.2rem
+            }
+
+            h3,
+            .h3,
+            .l-Section-title,
+            .l-Section-content {
+                margin-top: 1.8rem
+            }
+
+            .Title {
+                font-size: 4.5rem
+            }
+
+            .l-Header {
+                display: flex;
+                justify-content: space-between;
+                align-items: flex-end
+            }
+
+            .l-Header-col:last-child:not(:first-child) {
+                text-align: right
+            }
+
+            .l-Section {
+                position: relative;
+                padding-top: 5px;
+                border-top: 1px solid #ddd
+            }
+
+            .l-Section:before {
+                display: none
+            }
+
+            .l-Section:after {
+                content: "";
+                position: absolute;
+                top: -1px;
+                left: 0;
+                border-top: 5px solid;
+                width: 4rem
+            }
+
+            .l-Section-group {
+                display: block;
+                page-break-inside: avoid
+            }
+
+            .Tag {
+                font-weight: 900;
+                display: inline;
+                padding-left: 0;
+                padding-right: 0
+            }
+
+            *,
+            *:before,
+            *:after,
+            p:first-letter,
+            div:first-letter,
+            blockquote:first-letter,
+            li:first-letter,
+            p:first-line,
+            div:first-line,
+            blockquote:first-line,
+            li:first-line {
+                background: transparent !important;
+                color: #000 !important;
+                box-shadow: none !important;
+                text-shadow: none !important
+            }
+
+            a,
+            a:visited {
+                text-decoration: underline
+            }
+
+            p,
+            h2,
+            h3,
+            li {
+                orphans: 3;
+                widows: 3
+            }
+
+            h2,
+            h3 {
+                page-break-after: avoid
+            }
+
+
+        }
+
+        @page {
+            margin: 2.2cm 2.2cm 1.8cm
+        }
+    </style>
+</head>
+
+<body data-gr-c-s-loaded="true">
+   <nav class="Navbar">
+        <div class="l-Wrapper l-Wrapper--reset@sm-down">
+            <ul class="u-pullRight">
+                <li> <a class="Navbar-btn Navbar-btn--main" href="Mohammad_Abir_Hassan_Sarker_Resume.pdf" target="_blank"> Download <span>(pdf)</span> </a></li>
+            </ul>
+            <ul>
+                <li></li>
+            </ul>
+        </div>
+    </nav>
+    <article class="l-Wrapper">
+        <div class="l-Header">
+            <div class="l-Header-col">
+                    <h1 class="Title">
+                        <span class="u-shadow">
+                            Mohammad Abir Hassan Sarker
+                        </span>
+                    </h1>
+                    <img src="../image/110.jpg" style="float: right; height: 150px; margin-left: 210px;">
+                <div style="padding-top:10px;">
+                    <div><b>Country:</b>
+                        <a>Bangladesh</a>
+                    </div>
+                    <div><b>Contact No:</b>
+                        <a class="u-link" href="tel:+8801826680971">+8801826680971</a>
+                    </div>
+                    <div><b>E-mail:</b>
+                        <a class="u-link" href="mailto:abirhassan142442@gmail.com">abirhassan142442@gmail.com</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <section class="l-Section">
+            <h2 class="l-Section-title h3">Profile</h2>
+            <div class="l-Section-content">
+                <p style="text-align: justify">I’m an Electrical Engineer and Web developer with a passion for designing websites, style guides and code components. I enjoy developing exceptional websites and apps that provide intuitive. I am looking for a company willing to offer me a placement among its developers. In return, I would offer my full commitment, and be a pleasant and friendly addition to your team.</p>
+            </div>
+        </section>
+
+        <section class="l-Section">
+            <h2 class="l-Section-title h3">Skills</h2>
+            <div class="l-Section-content">
+                <ul>
+                    <li>Highly skilled in creating performant
+                        <strong class="Tag">HTML</strong>,
+                        <strong class="Tag">CSS</strong> and
+                        <strong class="Tag">Bootstrap</strong>
+                    </li>
+                    <li>Passionate about
+                        <strong class="Tag">JavaScript ES6</strong>,
+                        <strong class="Tag">Vue.js</strong>.
+                    </li>
+                    <li>Experienced with
+                        <strong class="Tag">Python</strong>,
+                        <strong class="Tag">Java</strong>,
+                        <strong class="Tag">Assembly Language</strong> and
+                        <strong class="Tag">MATLAB</strong>.
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="l-Section">
+            <h2 class="l-Section-title h3">Achievements</h2>
+            <div class="l-Section-content">
+                <p>ITEE FE Exam AM Half Passer in April 2019 exam.</p>
+                <p>MathWorks, Cody Challenge Ranking 344 (up to 04 February 2019) – A website to practice
+Problem Solving Using MATLAB code. <a href="https://www.mathworks.com/matlabcentral/cody/players/12579192-mohammadabir-hassan-sarker" target="_blank">Link: https://www.mathworks.com/matlabcentral/cody/players/12579192-mohammadabir-hassan-sarker</a></p>
+            </div>
+        </section>
+
+        <section class="l-Section">
+            <h2 class="l-Section-title h3">Education</h2>
+            <div class="l-Section-content">
+                <div class="l-Section-group">
+                    <h3>ISLAMIC UNIVERSITY OF TECHNOLOGY</h3>
+                    <a>Bachelor Of Science</a>(B.Sc.)
+                    <br> (2014-2018)
+                    <ul>
+                        <li>OIC 'Full free scholarship' for 3 years.</li>
+                        <li>B.Sc. in Electronics and Electrical Engineering (EEE) </li>
+                        <li>CGPA 3.09</li>
+                    </ul>
+                </div>
+
+
+                <div class="l-Section-group">
+                    <h3>Notre Dame College, Dhaka</h3>
+                    <a>Higher Secondary School Certificate</a>(HSC)
+                    <br>(2012-2014)
+                    <ul>
+                        <li>Obtained GPA 5.00 in HSC in 2014</li>
+                    </ul>
+                </div>
+
+                <div class="l-Section-group">
+                    <h3>Savar Cantonment Public School and College</h3>
+                    <a>Secondary School Certificate</a>(SSC)
+                    <br>(2010-2012)
+                    <ul>
+                        <li>Obtained GPA 5.00 in SSC in 2012</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+
+
+    </article>
+
+
+    <div class="l-Wrapper u-keyline">
+        <div class="l-Footer">
+            <div class="l-Footer-col">
+                <strong>Mohammad Abir Hassan Sarker</strong>
+            </div>
+            <div class="l-Footer-col Contact">
+                <a href="mailto:abirhassan142442@gmail.com">abirhassan142442@gmail.com</a>
+            </div>
+        </div>
+    </div>
+
+
+    <script>
+        window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+        ga('create', 'UA-49119985-1', 'auto'); ga('send', 'pageview')
+    </script>
+    <script src="https://www.google-analytics.com/analytics.js" async="" defer=""></script>
+
+
+
+
+</body>
+</html>

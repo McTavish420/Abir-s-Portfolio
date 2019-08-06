@@ -1,298 +1,379 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <!-- Google Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:400,600,700|Raleway:400,500,600,700,800,900|Source+Sans+Pro:400,600,700,700i,900,900i|Roboto+Mono&display=swap" rel="stylesheet">
+    <!-- Animate CSS -->
+    <link rel="stylesheet" href="css/animate.css">
+    <!-- External CSS -->
+    <link rel="stylesheet" href="css/style.css?v=1006">
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/1d8b19fed6.js"></script>
 
-<title>Bigg &raquo; Just another Open Designs template</title>
-<meta name="description" content="Just another Open Designs template." />
-<meta name="robots" content="noodp,noydir" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<link rel="stylesheet" id="child-theme-css" href="css/style.css" type="text/css" media="all" />
-<link rel="stylesheet" id="responsive-main-css-css" href="css/responsive-main.min.css" type="text/css" media="all" />
-<link rel="stylesheet" id="responsive-css-css" href="css/responsive.css" type="text/css" media="all" />
-<link rel="stylesheet" id="tb_styles-css" href="css/tb-styles.min.css" type="text/css" media="all" />
-
-<script type="text/javascript" src="js/jquery.js"></script>
-
-<script type="text/javascript">
-  jQuery(window).scroll(function (event) {
-	  	
-		var top = jQuery('#popular-upcoming').offset().top - jQuery(document).scrollTop();;
-		// what the y position of the scroll is
-		var y = jQuery(this).scrollTop();
-		// whether that's below the form
-		if (y >= top)  {
-		// if so, add the active class to popular-upcoming and remove from content
-		jQuery('.page-nav-popular-posts').addClass('active');
-		jQuery('.page-nav-top-posts').removeClass('active');
-		} else {
-		// otherwise remove it
-		jQuery('.page-nav-popular-posts').removeClass('active');
-		jQuery('.page-nav-top-posts').addClass('active');
-	   }
-  });
-  
-  jQuery(document).ready(function (){
-  jQuery('#popular-scroll').click(function (){
-            //jQuery(this).animate(function(){
-                jQuery('html, body').animate({
-                    scrollTop: jQuery('#popular-upcoming').offset().top
-                     }, 2000);
-            //});
-        });
-		
-		jQuery('#feature-scroll').click(function (){
-            //jQuery(this).animate(function(){
-                jQuery('html, body').animate({
-                    scrollTop: jQuery('#inner').offset().top
-                     }, 2000);
-            //});
-        });
-		  });
-	  </script>
-</head>
-
-<body class="home blog header-full-width full-width-content">
-  <div id="header">
-  <div class="site-header">
-    <h1 class="site-header-logo-container">
-    <a href="/"><span class="image-replace">Bigg</span>
-    <img src="images/bigg-logo.png" width="65" height="35" id="bigg-logo" alt="Bigg" /></a>
-    </h1>
-      
-            <ul id="page-nav" class="horizontal-list">
-<li class="page-nav-top-posts active"><a href="javascript:void(0)" id="feature-scroll" class="page-anchor-link">Featured Posts</a></li>
-
-<li class="page-nav-popular-posts"><a href="javascript:void(0)" id="popular-scroll" class="page-anchor-link">Popular &amp; Upcoming</a></li>
-
-</ul>
-
-<div id="site-nav" class="horizontal-list"><div class="menu-main-menu-container"><ul id="menu-main-menu" class="menu"><li id="menu-item-144" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-144"><a href="/">Home</a></li>
-<li id="menu-item-142" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-142"><a href="sample-page.htm">Sample Page</a></li>
-</ul></div></div><!-- #site-nav -->
-<div id="site-header-bigg-social">
-<ul class="horizontal-list">
-<li><a href="https://twitter.com/opendesigns" target="_blank" class="bigg-social-twitter bigg-social-icon image-replace">Twitter</a></li>
-<li><a href="http://www.facebook.com/opendesigns/" target="_blank" class="bigg-social-fb bigg-social-icon image-replace">Facebook</a></li>
-<li><a href="https://plus.google.com/101703942483092652776/posts" target="_blank" class="bigg-social-gplus bigg-social-icon image-replace">Google+</a></li>
-</ul>
-      
-    </div>  
+    <title>Mohammad Abir Hassan Sarker</title>
+  </head>
+  <body data-spy="scroll" data-target=".navbar" data-offset="20">
+    <!-- Preloader -->
+    <div id="preloader">
+       <div id="status">&nbsp;</div>
     </div>
-  </div>
-  <div id="wrap">
-<div id="inner">
-<div class="wrap">
-<div id="content-sidebar-wrap">
-				
-				<div id="content" class="hfeed">
-				<div class="post-5 post type-post status-publish format-standard hentry category-featured category-parent-category-i entry feature feature">
 
-		<a href="#" title="Welcome to Bigg"><img width="660" height="370" src="images/1.jpg" class="alignleft post-image" alt="1" /></a>		<h2 class="entry-title"><a href="#" title="Welcome to Bigg" rel="bookmark">Welcome to Bigg</a></h2> 
-		
-				<div class="entry-content">
-			<p>This is a little introduction to Bigg, the free website template that might look a little bit like a popular site you’ve probably already heard of.  Can you guess what site I’m talking about? ;)</p>
+    <nav class="navbar navbar-expand-sm justify-content-center fixed-top">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu" aria-controls="#menu" aria-expanded="false" aria-label="Toggle navigation">
+         <span class="navbar-toggler-icon"><i class="fab fa-get-pocket" style="font-size: 30px"></i></span>
+       </button>
+      <div class="collapse navbar-collapse justify-content-center" id="menu">
+        <ul class="navbar-nav">
+            <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+               <a class="nav-link active"href="#home-page"><i class="fas fa-mask"></i>About</a>
+            </li>
+            <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+               <a class="nav-link" href="#technical-skills"><i class="fas fa-crosshairs"></i>Skills</a>
+            </li>
+            <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+              <a class="nav-link" href="#interest"><i class="fab fa-gratipay"></i>Interest</a>
+            </li>
+            <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+              <a class="nav-link" href="#projects"><i class="fas fa-hamsa"></i>Projects</a>
+           </li>
+           <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+              <a class="nav-link" href="#getintouch"><i class="fas fa-id-card-alt"></i>Contact</a>
+           </li>
+       </ul>
+      </div>
+    </nav>
 
-			<a class="bigg-read-more" href="http://demo.opendesigns.org/welcome/">Read Article</a>		</div><!-- end .entry-content -->
-		
-	</div><!-- end .postclass -->
-		<div class="post-1 post type-post status-publish format-standard hentry category-featured category-uncategorized entry fourcol first one-third teaser first">
 
-		<a href="#" title="Hello world!"><img width="300" height="168" src="images/2-300x168.jpg" class="alignleft post-image" alt="2" /></a>		<h2 class="entry-title"><a href="#" title="Hello world!" rel="bookmark">Hello world!</a></h2> 
-		
-				<div class="entry-content">
-			<p>Bacon ipsum dolor sit amet kielbasa swine pariatur consequat consectetur esse tongue ea biltong. Fatback dolore ullamco labore in spare ribs ad hamburger cupidatat tongue. Nisi frankfurter duis proident, officia ham aliqua.</p>
-
-			<a class="bigg-read-more" href="http://demo.opendesigns.org/hello-world/">Read Article</a>		</div><!-- end .entry-content -->
-		
-	</div><!-- end .postclass -->
-		<div class="post-63 post type-post status-publish format-standard hentry category-child-category-i category-featured category-parent-category-i category-parent-category-ii tag-tag2 tag-tag5 tag-tag6 entry fourcol one-third teaser">
-
-		<a href="#" title="Another Post with Everything"><img width="300" height="168" src="images/3-300x168.jpg" class="alignleft post-image" alt="3" /></a>		<h2 class="entry-title"><a href="#" title="Another Post with Everything In It" rel="bookmark">Another Post with Everything</a></h2> 
-		
-				<div class="entry-content">
-			<p>Bacon ipsum dolor sit amet kielbasa swine pariatur consequat consectetur esse tongue ea biltong. Fatback dolore ullamco labore in spare ribs ad hamburger cupidatat tongue. Nisi frankfurter duis proident, officia ham aliqua.</p>
-
-			<a class="bigg-read-more" href="http://demo.opendesigns.org/another-post-with-everything-in-it/">Read Article</a>		</div><!-- end .entry-content -->
-		
-	</div><!-- end .postclass -->
-		<div class="post-61 post type-post status-publish format-standard hentry category-featured category-uncategorized entry fourcol one-third teaser">
-
-		<a href="#" title="An Ordered List Post"><img width="300" height="168" src="images/4-300x168.jpg" class="alignleft post-image" alt="4" /></a>		<h2 class="entry-title"><a href="#" title="An Ordered List Post" rel="bookmark">An Ordered List Post</a></h2> 
-		
-				<div class="entry-content">
-			<p>Bacon ipsum dolor sit amet kielbasa swine pariatur consequat consectetur esse tongue ea biltong. Fatback dolore ullamco labore in spare ribs ad hamburger cupidatat tongue. Nisi frankfurter duis proident, officia ham aliqua.</p>
-
-			<a class="bigg-read-more" href="http://demo.opendesigns.org/an-ordered-list-post/">Read Article</a>		</div><!-- end .entry-content -->
-		
-	</div><!-- end .postclass -->
-		<div class="post-56 post type-post status-publish format-standard hentry category-child-category-iii category-featured category-parent-category-iii tag-tag1 tag-tag3 tag-tag6 entry fourcol first last one-third teaser first">
-
-		<a href="#" title="A Simple Text Post"><img width="300" height="168" src="images/5-300x168.jpg" class="alignleft post-image" alt="5" /></a>		<h2 class="entry-title"><a href="#" title="A Simple Text Post" rel="bookmark">A Simple Text Post</a></h2> 
-		
-				<div class="entry-content">
-			<p>Bacon ipsum dolor sit amet kielbasa swine pariatur consequat consectetur esse tongue ea biltong. Fatback dolore ullamco labore in spare ribs ad hamburger cupidatat tongue. Nisi frankfurter duis proident, officia ham aliqua.</p>
-
-			<a class="bigg-read-more" href="#">Read Article</a>		</div><!-- end .entry-content -->
-		
-	</div><!-- end .postclass -->
-		<div class="post-53 post type-post status-publish format-standard hentry category-featured category-uncategorized entry fourcol one-third teaser">
-
-		<a href="#" title="Hello world!"><img width="300" height="168" src="images/6-300x168.jpg" class="alignleft post-image" alt="6" /></a>		<h2 class="entry-title"><a href="#" title="Hello world!" rel="bookmark">Hello world!</a></h2> 
-		
-				<div class="entry-content">
-			<p>Bacon ipsum dolor sit amet kielbasa swine pariatur consequat consectetur esse tongue ea biltong. Fatback dolore ullamco labore in spare ribs ad hamburger cupidatat tongue. Nisi frankfurter duis proident, officia ham aliqua.</p>
-
-			<a class="bigg-read-more" href="#">Read Article</a>		</div><!-- end .entry-content -->
-		
-	</div><!-- end .postclass -->
-		<div class="post-51 post type-post status-publish format-standard hentry category-child-category-ii category-featured category-grandchild-category-i category-parent-category-i category-parent-category-ii tag-tag1 tag-tag2 tag-tag5 tag-tag7 entry fourcol one-third teaser">
-
-		<a href="#" title="A Post With Everything In It"><img width="300" height="168" src="images/7-300x168.jpg" class="alignleft post-image" alt="7" /></a>		<h2 class="entry-title"><a href="#" title="A Post With Everything In It" rel="bookmark">A Post With Everything In It</a></h2> 
-		
-				<div class="entry-content">
-			<p>Bacon ipsum dolor sit amet kielbasa swine pariatur consequat consectetur esse tongue ea biltong. Fatback dolore ullamco labore in spare ribs ad hamburger cupidatat tongue. Nisi frankfurter duis proident, officia ham aliqua.</p>
-
-			<a class="bigg-read-more" href="#">Read Article</a>		</div><!-- end .entry-content -->
-		
-	</div><!-- end .postclass -->
-		<div class="post-49 post type-post status-publish format-standard hentry category-featured category-uncategorized tag-tag2 tag-tag5 tag-tag7 entry fourcol first one-third teaser first">
-
-		<a href="#" title="Quotes Time!"><img width="300" height="168" src="images/8-300x168.jpg" class="alignleft post-image" alt="8" /></a>		<h2 class="entry-title"><a href="#" title="Quotes Time!" rel="bookmark">Quotes Time!</a></h2> 
-		
-				<div class="entry-content">
-			<p>Bacon ipsum dolor sit amet kielbasa swine pariatur consequat consectetur esse tongue ea biltong. Fatback dolore ullamco labore in spare ribs ad hamburger cupidatat tongue. Nisi frankfurter duis proident, officia ham aliqua.</p>
-
-			<a class="bigg-read-more" href="#">Read Article</a>		</div><!-- end .entry-content -->
-		
-	</div><!-- end .postclass -->
-		<div class="post-47 post type-post status-publish format-standard hentry category-featured category-parent-category-ii category-parent-category-iii tag-tag2 tag-tag4 tag-tag7 entry fourcol one-third teaser">
-
-		<a href="#" title="Left-Aligned Image"><img width="300" height="168" src="images/9-300x168.jpg" class="alignleft post-image" alt="9" /></a>		<h2 class="entry-title"><a href="#" title="A Post With a Left-Aligned Image" rel="bookmark">Left-Aligned Image</a></h2> 
-		
-				<div class="entry-content">
-			<p>Bacon ipsum dolor sit amet kielbasa swine pariatur consequat consectetur esse tongue ea biltong. Fatback dolore ullamco labore in spare ribs ad hamburger cupidatat tongue. Nisi frankfurter duis proident, officia ham aliqua.</p>
-
-			<a class="bigg-read-more" href="#">Read Article</a>		</div><!-- end .entry-content -->
-		
-	</div><!-- end .postclass -->
-		<div class="post-45 post type-post status-publish format-standard hentry category-child-category-ii category-featured category-grandchild-category-i category-parent-category-i entry fourcol one-third teaser">
-
-		<a href="#" title="Another Text-Only Post"><img width="300" height="168" src="images/10-300x168.jpg" class="alignleft post-image" alt="10" /></a>		<h2 class="entry-title"><a href="#" title="Another Text-Only Post" rel="bookmark">Another Text-Only Post</a></h2> 
-		
-				<div class="entry-content">
-			<p>Bacon ipsum dolor sit amet kielbasa swine pariatur consequat consectetur esse tongue ea biltong. Fatback dolore ullamco labore in spare ribs ad hamburger cupidatat tongue. Nisi frankfurter duis proident, officia ham aliqua.</p>
-
-			<a class="bigg-read-more" href="#">Read Article</a>		</div><!-- end .entry-content -->
-		
-	</div><!-- end .postclass -->
-			</div><!-- end #content -->
-		
-<div id="popular-upcoming" class="stories-container sixcol">
-
-<div class="stories-section-header">
-<h2 class="stories-section-header-hed">Popular</h2>
-<h3 class="stories-section-header-subhed">The most popular content on Bigg in the last 24 hours.</h3>
-</div>
-
-<ul class="plain-list stories-table">
-
-<li><a href="#">Welcome to Bigg</a></li>
-<li><a href="#">Another Post with Everything In It</a></li>
-<li><a href="#">A Post With Everything In It</a></li>
-<li><a href="#">An Ordered List Post</a></li>
-<li><a href="#">A Post With a Left-Aligned Image</a></li>
-<li><a href="#">Hello world!</a></li>
-<li><a href="#">Hello world!</a></li>
-<li><a href="#">Another Text-Only Post</a></li>
-<li><a href="#">Quotes Time!</a></li>
-<li><a href="#">A Post With an Unordered List</a></li>
-<li><a href="#">A Post With a Right-Aligned Image</a></li>
-<li><a href="#">A Simple Text Post</a></li>
-<li><a href="#">A Simple Post with Text</a></li>
-<li><a href="#">A Post With an Ordered List</a></li>
-</ul>
-
-</div>
-
-<div id="recent-stories" class="stories-container sixcol last">
-<div class="stories-section-header">
-<h2 class="stories-section-header-hed">Upcoming</h2>
-<h3 class="stories-section-header-subhed">A selection of the most recently posted content on Bigg.</h3>
-</div>
-
-<ul class="plain-list stories-table">
-
-<li><a href="#">Welcome to Bigg</a></li>
-<li><a href="#">Hello world!</a></li>
-<li><a href="#">Another Post with Everything In It</a></li>
-<li><a href="#">An Ordered List Post</a></li>
-<li><a href="#">A Simple Text Post</a></li>
-<li><a href="#">Hello world!</a></li>
-<li><a href="#">A Post With Everything In It</a></li>
-<li><a href="#">Quotes Time!</a></li>
-<li><a href="#">A Post With a Left-Aligned Image</a></li>
-<li><a href="#">Another Text-Only Post</a></li>
-<li><a href="#">A Post With an Ordered List</a></li>
-<li><a href="#">A Post With a Right-Aligned Image</a></li>
-<li><a href="#">A Post With an Unordered List</a></li>
-<li><a href="#">A Simple Post with Text</a></li>
-</ul>
-
-	</div><!-- end #content-sidebar-wrap -->
-	</div><!-- end .wrap --></div><!-- end #inner --> 
-<div id="bigg-footer">
-<div class="wrap">
-        <div class="twocol">
-            <div id="text-2" class="widget widget_text"><div class="widget-wrap"><h4 class="widgettitle">Company</h4>			
-			<div class="textwidget"><ul class="plain-list">
-<li><a href="#">About</a></li>
-<li><a href="#">Jobs</a></li>
-<li><a href="#">Contact</a></li>
-<li><a href="#">Terms</a></li>
-<li><a href="#">Privacy</a></li>
-</ul>
-</div>
-		</div></div>
+    <div class="section" id="home-page">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-8 col-md-12 marginXLheading">
+            <h1 class="mb-4 text-center">Mohammad Abir Hassan Sarker</h1>
+            <h3 class="mb-4 text-center">Front-End Web Developer</h3>
+            <div class="intro text-white text-justify  pt-3">
+              <p>Hi, I'm Mohammad Abir Hassan Sarker.</p>
+              <p>If you ever feel like building a website and need someone working at the front-end
+                 with modern technologies like Javascript and Vue JS, I think I'm the guy
+                 you are looking for.</p>
+              <p>Reach me over the social media or via mail.</p>
+            </div>
+            <div class="social text-center">
+               <a href="https://www.facebook.com/profile.php?id=100011364998023" target="_blank"><span data-toggle="tooltip" data-placement="bottom" title="Lets chat on Facebook"><i class="fab fa-facebook-square"></i></span></a>
+               <a href="https://github.com/McTavish420" target="_blank"><span data-toggle="tooltip" data-placement="bottom" title="Check my Github"><i class="fab fa-github-square"></i></span></a>
+               <a href="https://www.linkedin.com/in/mohammad-abir-hassan-sarker-715112175/" target="_blank"><span data-toggle="tooltip" data-placement="bottom" title="Contact me on Linkedin"><i class="fab fa-linkedin"></i></span></a>
+           </div>
+          </div>
+          <div class="col-12 text-center">
+            <img src="image/down.png" class="down">
+          </div>
         </div>
-        <div class="twocol">
-            <div id="text-3" class="widget widget_text"><div class="widget-wrap"><h4 class="widgettitle">Community</h4>			<div class="textwidget"><ul class="plain-list">
-<li><a href="#">Blog</a></li>
-<li><a href="#">Twitter</a></li>
-<li><a href="#">Facebook</a></li>
-<li><a href="#">Help</a></li>
-</ul>
-</div>
-		</div></div>
+      </div>
+    </div>
+
+    <div class="section" id="technical-skills">
+              <div class="container">
+                  <div class="row justify-content-center">
+                      <div class="col-lg-8 col-md-12 text-white text-justify marginXLheading">
+                          <h3 class="mb-5 text-center">MY TECHNICAL SKILLS</h3>
+                          <div class="row pt-2 text-center">
+                              <div class="col-lg-3 col-md-6 mb-3">
+                                  <span class="service-icon rounded-circle mx-auto mb-3" style="color: #e34f26">
+                                      <i class="fab fa-html5"></i>
+                                  </span>
+                                  <h4>
+                                      <strong>HTML</strong>
+                                  </h4>
+                              </div>
+                              <div class="col-lg-3 col-md-6 mb-3">
+                                  <span class="service-icon rounded-circle mx-auto mb-3" style="color: #002561">
+                                      <i class="fab fa-css3-alt"></i>
+                                  </span>
+                                  <h4>
+                                      <strong>CSS</strong>
+                                  </h4>
+                              </div>
+                              <div class="col-lg-3 col-md-6 mb-3">
+                                  <span class="service-icon rounded-circle mx-auto mb-3" style="color: #646464">
+                                      <i class="fab fa-python"></i>
+                                  </span>
+                                  <h4>
+                                      <strong>Python</strong>
+                                  </h4>
+                              </div>
+                              <div class="col-lg-3 col-md-6 mb-3">
+                                  <span class="service-icon rounded-circle mx-auto mb-3" style="color: #f0e814">
+                                      <i class="fab fa-js-square"></i>
+                                  </span>
+                                  <h4>
+                                      <strong>JavaScript</strong>
+                                  </h4>
+                              </div>
+                          </div>
+                          <div class="row pt-4 text-center">
+                              <div class="col-lg-3 col-md-6 mb-3">
+                                  <span class="service-icon rounded-circle mx-auto mb-3" style="color: #00d8ff">
+                                      <i class="fab fa-vuejs"></i>
+                                  </span>
+                                  <h4>
+                                      <strong>Vue.js</strong>
+                                  </h4>
+                              </div>
+                              <div class="col-lg-3 col-md-6 mb-3">
+                                  <span class="service-icon rounded-circle mx-auto mb-3" style="color: #6935B5">
+                                      <i class="fab fa-bootstrap"></i>
+                                  </span>
+                                  <h4>
+                                      <strong>Bootstrap</strong>
+                                  </h4>
+                              </div>
+                              <div class="col-lg-3 col-md-6 mb-3">
+                                  <span class="service-icon rounded-circle mx-auto mb-3" style="color: #00d8ff">
+                                      <img src="image/firebase.png" style="height: 70px; margin-bottom: 25px">
+                                  </span>
+                                  <h4>
+                                      <strong>Firebase</strong>
+                                  </h4>
+                              </div>
+                              <div class="col-lg-3 col-md-6 mb-3">
+                                <span class="service-icon rounded-circle mx-auto mb-3" style="color: #00d8ff">
+                                    <i class="fab fa-java"></i>
+                                </span>
+                                <h4>
+                                    <strong>Java</strong>
+                                </h4>
+                              </div>
+                          </div>
+                      </div>
+                  <div class="col-12 text-center">
+                    <img src="image/down.png" class="down">
+                  </div>
+              </div>
+          </div>
+      </div>
+
+
+      <div class="section" id="interest">
+          <div class="container">
+              <div class="row justify-content-center">
+                  <div class="col-lg-8 col-md-12 text-white text-justify marginXLheading">
+                      <h3 class="mb-5 text-center">PERSONAL INTERESTS</h3>
+                      <p class="pt-3">When I am not coding my next project, I enjoy spending my time doing any of the following:</p>
+                      <div class="list pt-3">
+                          <p><i class="fas fa-map-marker"></i>I love Japanese Language and Culture. For that reason whenever I find some time, I try to learn a little bit. I follow online tutorials and sometimes watch Japanese dramas to enhance my Japanese.</p>
+                          <p><i class="fas fa-map-marker"></i>I enjoy watching anime. It's kind of my hobby. Most of my free time is spent watching anime.</p>
+                          <p><i class="fas fa-map-marker"></i>I love to read storybooks. Whenever I get bored reading textbooks, I start reading storybooks.</p>
+                          <p><i class="fas fa-map-marker"></i>I often play Table Tennis when I get a chance to play. Mostly I play online Video games on my PC</p>
+                      </div>
+                  </div>
+                  <div class="col-12 text-center"><img src="image/down.png" class="down"></div>
+              </div>
+          </div>
+      </div>
+
+
+
+      <div class="section" id="projects">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-12 text-center marginXLheading">
+                        <h3 class="mb-5">PROJECTS</h3>
+                    </div>
+                    <div class="justify-content-center my-3">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-4 col-md-6 col-sm-6 col-12">
+                                    <div class="card">
+                                        <a href="#" target="_blank">
+                                            <img class="card-img-top" src="https://images.yourstory.com/cs/wordpress/2018/03/coding-job.png" alt="Card image cap">
+
+                                            <div class="card-body text-center">
+                                                <h5 class="card-title">Comics Ghor</h5>
+                                                <p class="card-text">Platform for Bangladeshi Manga and Light Novel writers and readers</p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 col-sm-6 col-12">
+                                    <div class="card">
+                                        <a href="#" target="_blank">
+                                            <img class="card-img-top" src="https://images.yourstory.com/cs/wordpress/2018/03/coding-job.png" alt="Card image cap">
+
+                                            <div class="card-body text-center">
+                                                <h5 class="card-title">Vocalog</h5>
+                                                <p class="card-text">A complete wonderful blog website related to Vocaloid</p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 col-sm-6 col-12">
+                                    <div class="card">
+                                        <a href="#" target="_blank">
+                                            <img class="card-img-top" src="https://images.yourstory.com/cs/wordpress/2018/03/coding-job.png" alt="Card image cap">
+
+                                            <div class="card-body text-center">
+                                                <h5 class="card-title">Kokoroco</h5>
+                                                <p class="card-text">Social networking website for students</p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 col-sm-6 col-12">
+                                    <div class="card">
+                                        <a href="#" target="_blank">
+                                            <img class="card-img-top" src="https://images.yourstory.com/cs/wordpress/2018/03/coding-job.png" alt="Card image cap">
+
+                                            <div class="card-body text-center">
+                                                <h5 class="card-title">Elch</h5>
+                                                <p class="card-text">Messaging app with various cool features</p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 col-sm-6 col-12">
+                                    <div class="card">
+                                        <a href="#" target="_blank">
+                                            <img class="card-img-top" src="https://images.yourstory.com/cs/wordpress/2018/03/coding-job.png" alt="Card image cap">
+
+                                            <div class="card-body text-center">
+                                                <h5 class="card-title">Fuego Market</h5>
+                                                <p class="card-text">Website for buying rare goods</p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 col-sm-6 col-12">
+                                    <div class="card">
+                                        <a href="#" target="_blank">
+                                            <img class="card-img-top" src="https://images.yourstory.com/cs/wordpress/2018/03/coding-job.png" alt="Card image cap">
+
+                                            <div class="card-body text-center">
+                                                <h5 class="card-title">Templates</h5>
+                                                <p class="card-text">Collection of templates to code faster.</p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 text-center"><img src="image/down.png" class="down"></div>
+                </div>
+            </div>
         </div>
-        <div class="fourcol">
-            <div id="text-4" class="widget widget_text"><div class="widget-wrap"><h4 class="widgettitle">Subscribe to the newsletter</h4>			<div class="textwidget"><p>Top stories from Bigg delivered to your inbox</p>
 
-<div>
-<input type="text" placeholder="Enter your email address" name="email" class="form-field" id="newsletter-email-input"> <input type="button" value="Submit" class="button" id="newsletter-email-submit-btn">
-</div>
+        <div class="section" id="getintouch">
+            <div class="container">
+                <div class="row  justify-content-center">
+                    <div class="col-lg-8 col-md-12 text-white marginXLheading">
+                        <div>
+                            <h3 class="mb-2 text-center">LET'S GET IN TOUCH</h3>
+                            <p class="text-center mb-2" id="form-subheading">Need something to build or simply want to have chat? <br /> Let's get in touch</p>
+                        </div>
+                        <div class="row pd-3">
 
-<p class="legalese">
-Opt-out anytime with one click and we'll never share your information.
-</p></div>
-		</div></div>
+                            <div class="col-12">
+                                <div id="contact">
+                                    <form method="post" action="https://formspree.io/abirhassan142442@gmail.com">
+                                        <div class="row">
+
+                                            <div class="col-md-6 col-sm-6">
+                                                <div class="form-group">
+                                                    <input type="text" class="form-control" id="name" name="Name" placeholder="Your Name" required data-toggle="tooltip" title="Use Characters Only">
+
+                                                    <div class="tooltip bs-tooltip-top" role="tooltip">
+                                                        <div class="arrow"></div>
+                                                        <div class="tooltip-inner"></div>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6 col-sm-6">
+                                                <div class="form-group">
+                                                    <input type="email" class="form-control" id="email" name="Email" placeholder="Email Address" required data-toggle="tooltip" title="Use valid Email address">
+
+                                                    <div class="tooltip bs-tooltip-top" role="tooltip">
+                                                        <div class="arrow"></div>
+                                                        <div class="tooltip-inner"></div>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6 col-sm-6">
+                                                <div class="form-group">
+                                                    <input type="tel" class="form-control" id="phone" name="Phone" placeholder="Phone No" required data-toggle="tooltip" title="Use '+' &amp; Numbers Only">
+
+                                                    <div class="tooltip bs-tooltip-top" role="tooltip">
+                                                        <div class="arrow"></div>
+                                                        <div class="tooltip-inner"></div>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6 col-sm-6">
+                                                <div class="form-group">
+                                                    <input type="text" class="form-control" id="subject" name="Subject" placeholder="Subject" required data-toggle="tooltip" title="Fill Out this Field">
+
+                                                    <div class="tooltip bs-tooltip-top" role="tooltip">
+                                                        <div class="arrow"></div>
+                                                        <div class="tooltip-inner"></div>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                        <div class="form-group">
+                                            <textarea class="form-control" id="message" name="Message" placeholder="Message" required data-toggle="tooltip" title="Write Something for Me"></textarea>
+                                            <div class="tooltip bs-tooltip-top" role="tooltip">
+                                                <div class="arrow"></div>
+                                                <div class="tooltip-inner"></div>
+                                            </div>
+
+                                        </div>
+                                        <div class="send-message">
+                                            <button type="submit" class="btn btn-lg btn-primary" id="sendmessage">Send Message</button>
+                                        </div>
+
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 text-center"><img src="image/down.png" class="down"></div>
+                </div>
+            </div>
         </div>
-        <div class="fourcol last">
-            <div id="text-5" class="widget widget_text"><div class="widget-wrap"><h4 class="widgettitle">Free download</h4>			<div class="textwidget"><p>Bigg is a completely free website template that you can download and start tinkering with right away.</p>
 
-<a class="button" href="http://www.opendesigns.org/design/bigg/">Download now!</a></div>
-		</div></div>
+        <div id="details">
+            <div class="container">
+                <div class="row justify-content-center mx-5 my-3 text-white text-center">
+                    <div class="col-md-4" style="font-family: Source Sans Pro"><i class="fas fa-phone-square-alt mr-2"></i><br />+880 1826 680 971</div>
+                    <div class="col-md-4 my-3" style="font-family: Source Sans Pro"><a class="btn btn-primary" role="button" href="resume/resume.html" target="_blank"><i class="fas fa-user-md"></i>Resume</a></div>
+                    <div class="col-md-4" style="font-family: Source Sans Pro"><i class="fas fa-envelope mr-2"></i><a href="mailto:abirhassan142442@gmail.com" target="_top" style="text-decoration: none; color: white"><br />abirhassan142442@gmail.com</a></div>
+                </div>
+            </div>
         </div>
-		        <div class="footer-copyright clear">
-© <span id="footer-copyright-year">2013</span> Bigg | Built by <a href="http://www.opendesigns.org/">OD</a>
-</div>
-        </div>
-</div>
- 
-</div><!-- end #wrap -->
+        <button onclick="topFunction()" id="myBtn" title="Go to Top"><i class="fas fa-chevron-circle-up"></i></button>
+        <footer class="container-fluid">
+             <div class="container pt-3 pb-3">
+                <div class="row">
+                  <div class="col-md-4"></div>
+                  <div class="col-md-4 text-center">Copyright &copy; 2019<br />Designed and Developed by SAR-dev </div>
+                  <div class="col-md-4"></div>
+               </div>
+             </div>
+        </footer>
 
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="js/script.js?v=400"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
-</div>
-</body>
+  </body>
 </html>
