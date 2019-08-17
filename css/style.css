@@ -60,7 +60,23 @@ body {
 }
 
 .down {
-    opacity: 0.5;
+    height: 55px;
+    margin-top: 25px;
+    animation: opaque 5s infinite;
+}
+
+@keyframes opaque {
+    0% {
+        opacity: .2
+    }
+
+    50% {
+        opacity: .8
+    }
+
+    100% {
+        opacity: .2
+    }
 }
 
 /*=================Preloader=====================*/
@@ -91,6 +107,7 @@ body {
     color: #222f3e !important;
     background-color: #ff4757 !important;
 }
+
 .navbar .active .fa-mask,
 .navbar .active .fa-gratipay,
 .navbar .active .fa-crosshairs,
@@ -98,6 +115,7 @@ body {
 .navbar .active .fa-id-card-alt {
     color: #222f3e;
 }
+
 .navbar a {
     color: #dcdde1;
     font-size: 18px;
@@ -113,7 +131,7 @@ body {
 }
 
 .navbar {
-    background-color: rgba(24, 24, 32, 0.1);
+    background-color: rgba(24, 24, 32, 0.85);
 }
 
 .fa-get-pocket {
@@ -332,34 +350,40 @@ h4 {
 .card {
     margin-bottom: 20px;
     background-color: rgba(52, 73, 94, 0.5);
-    -webkit-box-shadow: 5px 5px 22px 5px rgba(0,0,0,0.7);
-    box-shadow: 5px 5px 22px 5px rgba(0,0,0,0.7);
+    -webkit-box-shadow: 5px 5px 22px 5px rgba(0, 0, 0, 0.7);
+    box-shadow: 5px 5px 22px 5px rgba(0, 0, 0, 0.7);
 }
+
 .card img {
     height: 200px;
     -o-object-fit: cover;
     object-fit: cover;
 }
+
 .card-body {
     color: white;
-/*    height: 140px;*/
+    /*    height: 140px;*/
     height: 100px;
 }
+
 .card-body h5 {
     font-size: 28px;
     font-weight: 600;
-    text-shadow: -1px -1px 1px rgba(52, 73, 94,.1), 1px 1px 1px rgba(0,0,0,.5);
-/*    comment out if needed*/
+    text-shadow: -1px -1px 1px rgba(52, 73, 94, .1), 1px 1px 1px rgba(0, 0, 0, .5);
+    /*    comment out if needed*/
     margin-top: -70px;
     margin-bottom: 40px;
 }
+
 .card-body p {
     font-size: 14px;
     letter-spacing: .5px;
 }
+
 .card a {
     text-decoration: none;
 }
+
 /*===============Contact================*/
 
 #contact {
